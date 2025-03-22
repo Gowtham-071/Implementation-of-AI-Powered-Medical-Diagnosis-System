@@ -1,66 +1,74 @@
-AI-Powered Medical Diagnosis System
+# AI-Powered Medical Diagnosis System
 
 A project developed as part of the AICTE Internship - A Smart Solution for Early Disease Detection
 
-Project Overview
+## Project Overview
 
-The AI-Powered Medical Diagnosis System is an AI-driven healthcare assistant designed for early disease detection and prediction. Utilizing machine learning and medical image analysis, the system evaluates patient data to identify potential health conditions. This project serves as the foundation for an advanced AI-based diagnostic tool, with plans for additional features and accuracy enhancements.
+The AI-Powered Medical Diagnosis System is an AI-driven healthcare assistant designed to help in the early detection and prediction of diseases. Using machine learning and medical image analysis, the system evaluates patient data to assist in identifying potential health conditions. This project serves as the foundation for a more advanced AI-based diagnostic tool, with plans to integrate additional features and enhance accuracy.
 
-Key Features
+## Key Features
 
-* **Automated Disease Prediction:** AI models analyze medical data to predict potential health risks.
-* **Multiple Data Inputs:** Supports medical images (X-rays, MRIs, etc.) and structured health records.
-* **Real-Time Analysis:** Provides fast and accurate diagnostic results based on patient data.
-* **Visual Interpretation:** Highlights affected areas in medical scans for better understanding.
-* **User-Friendly Web Interface:** Simple interface for uploading medical reports and viewing analysis results.
-* **Powered by Deep Learning Models:** Ensures high accuracy and reliability in diagnostics.
+- **Automated Disease Prediction:** Uses AI models to analyze medical data and predict potential health risks.
+- **Supports Multiple Data Inputs:** Works with medical images (X-rays, MRIs, etc.) and structured health records.
+- **Real-Time Analysis:** Provides quick and accurate diagnostic results based on patient data.
+- **Visual Interpretation:** Highlights affected areas in medical scans for better understanding.
+- **User-Friendly Web Interface:** Easy-to-use interface for uploading medical reports and viewing analysis results.
+- **Powered by Deep Learning Models:** Ensures high accuracy and reliability in medical diagnostics.
 
-Installation Guide
+## Installation Guide
 
-1. Clone the Repository
-   git clone https://github.com/<your-username>/AI_Medical_Diagnosis-AICTE_Internship.git  
-   cd AI_Medical_Diagnosis-AICTE_Internship  
+### 1. Clone the Repository
+Use the following commands to clone the repository and navigate to the project directory:
 
-2. Install Dependencies
-   Ensure Python is installed (version 3.9 recommended). Then, install the required libraries:
-   pip install -r requirements.txt  
+```
+git clone https://github.com/<your-username>/AI_Medical_Diagnosis-AICTE_Internship.git
+cd AI_Medical_Diagnosis-AICTE_Internship
+```
 
-3. Run the Application
-   Launch the web application using the following command:
-   streamlit run app.py  
+### 2. Install Dependencies
+Ensure you have Python installed (version 3.8+ recommended). Then, install the required libraries:
 
-How It Works
+```
+pip install -r requirements.txt
+```
+
+### 3. Run the Application
+Launch the web application using the following command:
+
+```
+streamlit run app.py
+```
+
+## How It Works
 
 1. **Select Input:**
-   * Choose between **Upload Medical Image** or **Enter Patient Data** in the application interface.
+   - Choose between **Upload Medical Image** or **Enter Patient Data** in the application interface.
 
 2. **For Image-Based Diagnosis:**
-   * Click **Upload Medical Image** and select an X-ray, MRI, or CT scan for analysis.
+   - Click on **Upload Medical Image** and select an X-ray, MRI, or CT scan for analysis.
 
 3. **For Data-Based Diagnosis:**
-   * Click **Enter Patient Data** and fill in symptoms, age, medical history, etc.
+   - Click on **Enter Patient Data** and fill in symptoms, age, medical history, etc.
 
 4. **Get Results:**
-   The system provides:
-   * **Disease Predictions** based on AI model analysis.
-   * **Highlighted affected regions** in uploaded medical scans.
-   * **Suggestions for further medical consultation.**
+   - Disease Predictions based on AI model analysis.
+   - Highlighted affected regions in the uploaded medical scans.
+   - Suggestions for further medical consultation.
 
-Technology Used
+## Technology Used
 
-* **Python:** Core programming language for backend logic.
-* **Deep Learning (CNNs & LSTMs):** AI models for medical image and text-based diagnosis.
-* **OpenCV & TensorFlow:** Image processing and model deployment.
-* **Streamlit:** Interactive web interface for user interaction.
-* **Pandas & NumPy:** Data handling and analysis for patient records.
+- **Python:** Core programming language for backend logic.
+- **Deep Learning (CNNs & LSTMs):** AI models for medical image and text-based diagnosis.
+- **OpenCV & TensorFlow:** Image processing and model deployment.
+- **Streamlit:** Interactive web interface for seamless user interaction.
+- **Pandas & NumPy:** Data handling and analysis for patient records.
 
-Contact
+## Contact
+For questions or feedback, feel free to reach out via:
 
-For questions or feedback, reach out via:
-
-* **Email:** saigowtham712@gmail.com  
-* **GitHub:** https://github.com/Gowtham-071  
-* **LinkedIn:** www.linkedin.com/in/chanchala-sai-gowtham-a06314322  
+- **Email:** saigowtham712@gmail.com  
+- **GitHub:** [Gowtham-071](https://github.com/Gowtham-071)  
+- **LinkedIn:** [Chanchala Sai Gowtham](https://www.linkedin.com/in/chanchala-sai-gowtham-a06314322)
 
 This project marks a step toward smarter and more accessible healthcare diagnostics.
 
