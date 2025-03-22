@@ -18,20 +18,15 @@ Key Features
 Installation Guide
 
 1. Clone the Repository
-   
    git clone https://github.com/<your-username>/AI_Medical_Diagnosis-AICTE_Internship.git  
    cd AI_Medical_Diagnosis-AICTE_Internship  
 
 2. Install Dependencies
-   
-   Ensure Python is installed (version 3.8+ recommended). Then, install the required libraries:
-   
+   Ensure Python is installed (version 3.9 recommended). Then, install the required libraries:
    pip install -r requirements.txt  
 
 3. Run the Application
-   
    Launch the web application using the following command:
-   
    streamlit run app.py  
 
 How It Works
